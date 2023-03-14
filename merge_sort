@@ -1,0 +1,15 @@
+[16, 21, 11, 8, 12, 22] dizisinin Merge Sort ile sıralanması:
+
+[16, 21, 11] ve [8, 12, 22] şeklinde ikiye bölünür
+[16, 21, 11] dizisi [16] ve [21, 11] şeklinde ikiye bölünür
+[21, 11] dizisi [21] ve [11] şeklinde ikiye bölünür
+[16] ve [21] birleştirilerek [16, 21] oluşturulur
+[21] ve [11] birleştirilerek [11, 21] oluşturulur
+[16, 21] ve [11, 21] birleştirilerek [11, 16, 21] oluşturulur
+[8, 12, 22] dizisi [8, 12] ve [22] şeklinde ikiye bölünür
+[8, 12] birleştirilerek [8, 12] oluşturulur
+[8, 12] ve [22] birleştirilerek [8, 12, 22] oluşturulur
+[11, 16, 21] ve [8, 12, 22] birleştirilerek [8, 11, 12, 16, 21, 22] oluşturulur
+Bu şekilde Merge Sort ile sıralama adımları tamamlanır.
+
+Big-O gösterimi: O(n log n)
